@@ -23,7 +23,7 @@ const Popup = ({minAllocation, maxAllocation, setModal}) => {
 const AllocationForm = () => {
     const {register,handleSubmit, formState: {errors}} = useForm();
     const onSendAllocation = (data) => {
-        console.log(data);
+      console.log(data);
     }
     return (
       <form
@@ -32,7 +32,7 @@ const AllocationForm = () => {
       >
         <div className={styles.allocationForm__input}>
           <input
-            {...register("allocation", { required: true })}
+            {...register("allocation", { required: true, pattern: /^\d+$/i })}
             placeholder="Enter your allocation..."
           />
         </div>

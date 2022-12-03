@@ -30,7 +30,6 @@ const Pagination = ({currentPage = 1, pagesCount, setCurrentPage}) => {
         className={cn(styles.pagination__prevBtn, styles.pagination__button, styles.pagination__item)}
         onClick={prevPage}
         ></button>
-        <div className={styles.pagination__list}>{pagesElements}</div>
         <button
         className={cn(styles.pagination__nextBtn, styles.pagination__button, styles.pagination__item)}
         onClick={nextPage}

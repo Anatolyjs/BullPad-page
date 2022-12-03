@@ -10,17 +10,17 @@ const Footer = () => {
             <div className={styles.footer__contacts}>
               <div className={styles.contacts__item}>
                 <a href="https://twitter.com/LCH_Bullpad" target={'_blank'}>
-                  <i class="fa fa-twitter fa-2x"></i>
+                  <i className="fa fa-twitter fa-2x"></i>
                 </a>
               </div>
               <div className={styles.contacts__item}>
                 <a href="https://t.me/BullPadChat" target={'_blank'}>
-                  <i class="fa fa-paper-plane fa-2x"></i>
+                  <i className="fa fa-paper-plane fa-2x"></i>
                 </a>
               </div>
               <div className={styles.contacts__item}>
                 <a href="https://t.me/Bull_Pad" target={'_blank'}>
-                  <i class="fa fa-paper-plane fa-2x"></i>
+                  <i className="fa fa-paper-plane fa-2x"></i>
                 </a>
               </div>
             </div>
