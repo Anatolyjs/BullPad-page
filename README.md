@@ -12,4 +12,10 @@ HTML,
 SASS(SCSS), 
 JavaScript.
 
-Use "npm install" to download necessary modules. Then "npm start" and your app will be launched in the Browser.
+Currently app is installed on the server, but hosting isn't connected.
+
+Link: http://176.126.87.129:81/
+
+Use "npm install" to download necessary modules. 
+
+Then "npm start" and your app will be launched in the Browser.
