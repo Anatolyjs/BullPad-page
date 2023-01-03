@@ -12,7 +12,7 @@ HTML,
 SASS(SCSS), 
 JavaScript.
 
-Currently app is installed on the server, but hosting isn't connected.
+Currently app is installed on the hosting, but domain name isn't connected.
 
 Link: http://176.126.87.129:81/
 
